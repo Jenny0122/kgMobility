@@ -8,10 +8,10 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wisenut</groupId>
-    <artifactId>gaonchips</artifactId>
+    <artifactId>kgm</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
-    <name>gaonchips</name>
+    <name>kgm</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -59,7 +59,7 @@
         <dependency>
             <groupId>queryapi</groupId>
             <artifactId>queryapi</artifactId>
-            <version>530</version>
+            <version>720</version>
             <scope>system</scope>
             <!--<systemPath>C:\Users\admin\eclipse-workspace\sf1v7\src\main\webapp\WEB-INF\lib\queryapi-7.0.0.jar</systemPath>-->
             <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/queryapi720.jar</systemPath>
@@ -109,19 +109,6 @@
             <version>5.2.2</version>
         </dependency>
 
-        <!-- 엑셀 -->
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>5.2.2</version>
-        </dependency>
-
-        <!--
-        <dependency>
-            <groupId>com.fasterxml.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-xml</artifactId>
-        </dependency>
-    -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
