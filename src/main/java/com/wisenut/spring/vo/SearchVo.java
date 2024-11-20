@@ -10,7 +10,6 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @AllArgsConstructor
-//@JsonInclude(JsonInclude.Include.NON_NULL)
 @Schema(description = "통합 검색 필드 정보")
 public class SearchVo<T> {
 
