@@ -16,10 +16,10 @@ import java.time.LocalDateTime;
 public class EventVo {
 
     @Schema(description = "")
-    private String bb_no;
+    private String bbNo;
 
     @Schema(description = "")
-    private String oopb_yn;
+    private String oppbYN;
 
     @Schema(description = "제목")
     private String title;
@@ -27,28 +27,31 @@ public class EventVo {
     @Schema(description = "내용")
     private String content;
 
-    @Schema(description = "")
-    private String bnnr_img_url;
+    @Schema(description = "배너이미지 URL")
+    private String bnnrImgUrl;
+
+    @Schema(description = "시작날짜")
+    private String strtDt;
+
+    @Schema(description = "종료날짜")
+    private String endDt;
+
+    @Schema(description = "등록날짜")
+    private String regDt;
 
     @Schema(description = "")
-    private LocalDateTime strt_dt;
+    private String appxAppxFileNo;
 
     @Schema(description = "")
-    private LocalDateTime end_dt;
+    private String appxUpldFilePath;
 
     @Schema(description = "")
-    private LocalDateTime reg_dt;
-
-    @Schema(description = "")
-    private String appx_appx_file_no;
-
-    @Schema(description = "")
-    private String appx_upld_file_path;
-
-    @Schema(description = "")
-    private String appx_appx_file_nm;
+    private String appxAppxFileNm;
 
     @Schema(description = "진행여부 code")
-    private String status_cd;
+    private String statusCd;
+
+    @Schema(description = "랭킹점수")
+    private float score;
 
 }

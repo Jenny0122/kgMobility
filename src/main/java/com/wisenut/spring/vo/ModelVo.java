@@ -14,66 +14,69 @@ import lombok.*;
 public class ModelVo {
 
     @Schema(description = "모델별 키값")
-    private String disp_cat_no;
+    private String dispCatNo;
 
-    @Schema(description = "대분류 코드")
-    private String lrg_cat_no;
+    @Schema(description = "대분류코드")
+    private String lrgCatNo;
 
     @Schema(description = "대분류명")
-    private String l_cat_nm;
+    private String lCatNm;
 
     @Schema(description = "중분류코드")
-    private String mid_cat_no;
+    private String midCatNo;
 
     @Schema(description = "중분류명")
-    private String m_cat_nm;
+    private String mCatNm;
 
     @Schema(description = "모델상위코드")
-    private String upr_disp_cat_no;
+    private String uprDispCatNo;
 
     @Schema(description = "소분류코드")
-    private String sml_cat_no;
+    private String smlCatNo;
 
     @Schema(description = "모델명")
-    private String model_name;
+    private String modelName;
 
     @Schema(description = "모델코드")
-    private String model_cd;
+    private String modelCd;
 
     @Schema(description = "최저가격")
-    private String model_amt;
+    private String modelAmt;
 
     @Schema(description = "차종류")
-    private String car_type;
+    private String carType;
 
     @Schema(description = "차이미지")
-    private String model_cat_img_addr;
+    private String modelCatImgAddr;
 
     @Schema(description = "")
-    private String model_disp_flg;
+    private String modelDispFlg;
 
     @Schema(description = "간편견적전시코드")
-    private String carinfo_disp_cat_no;
+    private String carinfoDispCatNo;
 
     @Schema(description = "")
-    private String eleccar_yn;
+    private String eleccarYN;
 
     @Schema(description = "")
-    private String disp_stat_cd;
+    private String dispStatCd;
 
     @Schema(description = "")
-    private String taxben_yn;
+    private String taxbenYN;
 
     @Schema(description = "")
-    private String rsv_1_attr;
+    private String rsv1Attr;
 
     @Schema(description = "")
-    private String rsv_2_attr;
+    private String rsv2Attr;
 
     @Schema(description = "쇼룸전시 순서")
-    private String urp_disp_seq;
+    private String urpDispSeq;
 
     @Schema(description = "모델전시 순서")
-    private String model_disp_seq;
+    private String modelDispSeq;
+
+    @Schema(description = "랭킹점수")
+    private float score;
 
 }

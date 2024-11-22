@@ -14,100 +14,102 @@ import lombok.*;
 public class PurchaseVo {
 
     @Schema(description = "모델별 키값")
-    private String disp_cat_no;
+    private String dispCatNo;
 
-    @Schema(description = "대분류 코드")
-    private String lrg_cat_no;
+    @Schema(description = "대분류코드")
+    private String lrgCatNo;
 
     @Schema(description = "대분류명")
-    private String l_cat_nm;
+    private String lCatNm;
 
     @Schema(description = "중분류코드")
-    private String mid_cat_no;
+    private String midCatNo;
 
     @Schema(description = "중분류명")
-    private String m_cat_nm;
+    private String mCatNm;
 
     @Schema(description = "소분류코드")
-    private String sml_cat_no;
+    private String smlCatNo;
 
     @Schema(description = "소분류명")
-    private String s_cat_nm;
+    private String sCatNm;
 
     @Schema(description = "모델상위코드")
-    private String upr_disp_cat_no;
+    private String uprDispCatNo;
 
     @Schema(description = "모델코드")
-    private String dtl_cat_no;
+    private String dtlCatNo;
 
     @Schema(description = "모델명")
-    private String model_name;
+    private String modelName;
 
     @Schema(description = "모델코드")
-    private String model_cd;
+    private String modelCd;
 
     @Schema(description = "최저가격")
-    private String model_amt;
+    private String modelAmt;
 
     @Schema(description = "차종류")
-    private String car_type;
+    private String carType;
 
     @Schema(description = "클릭시이동 URL")
-    private String od_url;
+    private String odUrl;
 
     @Schema(description = "모델정보")
-    private String model_info;
+    private String modelInfo;
 
     @Schema(description = "엔진정보")
-    private String engine_info;
+    private String engineInfo;
 
     @Schema(description = "이미지파일명")
-    private String model_img_addr;
+    private String modelImgAddr;
 
     @Schema(description = "대표이미지명")
-    private String model_main_img_addr;
+    private String modelMainImgAddr;
 
     @Schema(description = "썸네일이미지명")
-    private String model_thmn_img_addr;
+    private String modelThmnImgAddr;
 
     @Schema(description = "마케팅문구")
-    private String mktg_txt;
+    private String mktgTxt;
 
     @Schema(description = "월혜택")
-    private String benefits_month;
+    private String benefitsMonth;
 
     @Schema(description = "스페셜혜택")
-    private String special_benefits;
+    private String specialBenefits;
 
     @Schema(description = "카탈로그명칭")
-    private String catalog_file_name;
+    private String catalogFileName;
 
     @Schema(description = "카탈로그파일명")
-    private String catalog_addr;
+    private String catalogAddr;
 
     @Schema(description = "e카탈로그 URL")
-    private String e_catalog_lnk_url_addr;
+    private String eCatalogLnkUrlAddr;
 
     @Schema(description = "가격표명칭")
-    private String price_list_file_name;
+    private String priceListFileName;
 
     @Schema(description = "가격표파일명")
-    private String price_list_addr;
+    private String priceListAddr;
 
     @Schema(description = "액세서리명")
-    private String accessories_file_name;
+    private String accessoriesFileName;
 
     @Schema(description = "엑세서리파일명")
-    private String accessories_addr;
+    private String accessoriesAddr;
 
     @Schema(description = "PC배너파일명")
-    private String banner_pc_img_addr;
+    private String bannerPcImgAddr;
 
     @Schema(description = "모바일배너파일명")
-    private String banner_mo_img_addr;
+    private String bannerMoImgAddr;
 
     @Schema(description = "전시순서")
-    private String disp_seq;
+    private String dispSeq;
+
+    private float score;
 
 
 }

@@ -14,19 +14,19 @@ import lombok.*;
 public class NoticeVo {
 
     @Schema(description = "")
-    private String bb_no;
+    private String bbNo;
 
     @Schema(description = "")
     private String rn;
 
     @Schema(description = "")
-    private String oppb_yn;
+    private String oppbYN;
 
     @Schema(description = "시작날짜")
-    private String strt_dt;
+    private String strtDt;
 
     @Schema(description = "종료날짜")
-    private String end_dt;
+    private String endDt;
 
     @Schema(description = "제목")
     private String title;
@@ -35,24 +35,27 @@ public class NoticeVo {
     private String content;
 
     @Schema(description = "")
-    private String uptn_disp_yn;
+    private String uptnDispYN;
 
     @Schema(description = "등록날짜")
-    private String reg_dt;
+    private String regDt;
 
     @Schema(description = "")
-    private String appx_appx_file_no;
+    private String appxAppxFileNo;
 
     @Schema(description = "")
-    private String appx_reg_seq;
+    private String appxRegSeq;
 
     @Schema(description = "")
-    private String appx_appx_file_knd_cd;
+    private String appxAppxFileKndCd;
 
     @Schema(description = "")
-    private String appx_upld_file_path;
+    private String appxUpldFilePath;
 
     @Schema(description = "")
-    private String appx_appx_file_nm;
+    private String appxAppxFileNm;
+
+    @Schema(description = "랭킹점수")
+    private float score;
 
 }
