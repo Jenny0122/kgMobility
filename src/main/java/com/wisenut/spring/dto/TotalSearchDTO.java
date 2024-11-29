@@ -16,9 +16,23 @@ public class TotalSearchDTO<T> {
 
     SearchVo<T> model;
 
-    SearchVo<T> news;
+//    SearchVo<T> news;
+//
+//    SearchVo<T> event;
+//
+//    SearchVo<T> notice;
 
-    SearchVo<T> event;
+    SearchVo<T> customer;
 
-    SearchVo<T> notice;
+    SearchVo<T> brand;
+
+    SearchVo<T> about;
+
+    SearchVo<T> apply;
+
+    SearchVo<T> audit;
+
+    SearchVo<T> pressEvent;
+
+    // String recentWord;
 }
