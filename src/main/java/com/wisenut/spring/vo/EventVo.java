@@ -39,13 +39,13 @@ public class EventVo {
     @Schema(description = "등록날짜")
     private String regDt;
 
-    @Schema(description = "")
+    @Schema(description = "첨부파일번호")
     private String appxAppxFileNo;
 
-    @Schema(description = "")
+    @Schema(description = "업로드파일경로")
     private String appxUpldFilePath;
 
-    @Schema(description = "")
+    @Schema(description = "업로드파일명")
     private String appxAppxFileNm;
 
     @Schema(description = "진행여부 code")

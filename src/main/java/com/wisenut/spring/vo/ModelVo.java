@@ -49,25 +49,25 @@ public class ModelVo {
     @Schema(description = "차이미지")
     private String modelCatImgAddr;
 
-    @Schema(description = "")
+    @Schema(description = "전시플래그")
     private String modelDispFlg;
 
     @Schema(description = "간편견적전시코드")
     private String carinfoDispCatNo;
 
-    @Schema(description = "")
+    @Schema(description = "전기차여부")
     private String eleccarYN;
 
-    @Schema(description = "")
+    @Schema(description = "전시상태코드")
     private String dispStatCd;
 
-    @Schema(description = "")
+    @Schema(description = "세제혜택적용여부")
     private String taxbenYN;
 
-    @Schema(description = "")
+    @Schema(description = "속성예약필드1")
     private String rsv1Attr;
 
-    @Schema(description = "")
+    @Schema(description = "속성예약필드2")
     private String rsv2Attr;
 
     @Schema(description = "쇼룸전시 순서")

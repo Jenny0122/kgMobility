@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 @Builder
 @AllArgsConstructor
-public class TotalSearchDTO<T> {
+public class TotalSearchResponseDTO<T> {
 
     String query;
 
@@ -16,11 +16,11 @@ public class TotalSearchDTO<T> {
 
     SearchVo<T> model;
 
-//    SearchVo<T> news;
-//
-//    SearchVo<T> event;
-//
-//    SearchVo<T> notice;
+    SearchVo<T> news;
+
+    SearchVo<T> event;
+
+    SearchVo<T> notice;
 
     SearchVo<T> customer;
 
@@ -32,7 +32,7 @@ public class TotalSearchDTO<T> {
 
     SearchVo<T> audit;
 
-    SearchVo<T> pressEvent;
+ //   SearchVo<T> pressEvent;
 
     // String recentWord;
 }
