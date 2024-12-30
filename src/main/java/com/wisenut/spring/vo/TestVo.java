@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 @AllArgsConstructor
-public class SearchVo<T> { // 통합 검색 필드 정보
+public class TestVo<T> { // 통합 검색 필드 정보
 
     private String collection;
 

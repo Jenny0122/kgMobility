@@ -1,36 +1,38 @@
 package com.wisenut.spring.dto;
 
-import com.wisenut.spring.vo.SearchVo;
+import com.wisenut.spring.vo.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
 @AllArgsConstructor
-public class TotalSearchResponseDTO<T> {
+@NoArgsConstructor
+public class TotalSearchResponseDTO {
 
     String query;
 
-    SearchVo<T> purchase;
+    SearchVo<Purchase> purchase;
 
-    SearchVo<T> model;
+    SearchVo<Model> model;
 
-    SearchVo<T> news;
+    SearchVo<News> news;
 
-    SearchVo<T> event;
+    SearchVo<Event> event;
 
-    SearchVo<T> notice;
+    SearchVo<Notice> notice;
 
-    SearchVo<T> customer;
+    SearchVo<Html> customer;
 
-    SearchVo<T> brand;
+    SearchVo<Html> brand;
 
-    SearchVo<T> about;
+    SearchVo<Html> about;
 
-    SearchVo<T> apply;
+    SearchVo<Html> apply;
 
-    SearchVo<T> audit;
+    SearchVo<Html> audit;
 
  //   SearchVo<T> pressEvent;
 

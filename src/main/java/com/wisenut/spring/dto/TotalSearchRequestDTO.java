@@ -3,6 +3,7 @@ package com.wisenut.spring.dto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotNull;
 
@@ -23,10 +24,13 @@ public class TotalSearchRequestDTO {
 
     private int pageStart;
 
+    // 한번에 출력되는 검색 건수
     private int count;
 
     public TotalSearchRequestDTO() {
         pageStart = 0;
         count = 10;
+        sortField = "SCORE";
+        sortDirection = "DESC";
     }
 }
